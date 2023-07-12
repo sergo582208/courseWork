@@ -11,7 +11,7 @@ import java.util.Random;
 
 @Service
 public class JavaQuestionService implements QuestionService {
-    private final List<Question> questions = new ArrayList<>();
+    private final Question questions = new Question();
     private final Random random = new Random();
 
     @PostConstruct
@@ -41,7 +41,7 @@ public class JavaQuestionService implements QuestionService {
 
     @Override
     public Question remove(Question question) {
-        boolean isRemoved = questions.remove(question);
+        boolean isRemoved = (boolean) questions.remove(question);
         return isRemoved ? question : null;
     }
 
@@ -52,7 +52,7 @@ public class JavaQuestionService implements QuestionService {
 
     @Override
     public Question getRandomQuestion() {
-        int randomIndex = random.nextInt(questions.size());
+        int randomIndex = random.nextInt((Integer) questions.size());
         return questions.get(randomIndex);
     }
 }

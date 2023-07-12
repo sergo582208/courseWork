@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="322bce36-6f3d-4dbd-b692-aeb0779719f7" name="Changes" comment="course work 2">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/skypro/examiner/controller/ExamController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/skypro/examiner/controller/JavaQuestionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/skypro/examiner/exception/notEnoughQuestionsInStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/skypro/examiner/model/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/skypro/examiner/service/ExaminerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/skypro/examiner/service/impl/ExaminerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/skypro/examiner/service/impl/JavaQuestionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/skypro/examiner/service/impl/QuestionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/skypro/examiner/service/impl/ExaminerServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/skypro/examiner/service/impl/JavaQuestionServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="322bce36-6f3d-4dbd-b692-aeb0779719f7" name="Changes" comment="course work 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689014590170</updated>
-      <workItem from="1689014591179" duration="10678000" />
+      <workItem from="1689014591179" duration="11026000" />
     </task>
     <task id="LOCAL-00001" summary="course work 2">
       <created>1689015328728</created>
@@ -122,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689015328728</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="course work 2">
+      <created>1689109387167</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689109387167</updated>
+    </task>
+    <task id="LOCAL-00003" summary="course work 2">
+      <created>1689109404457</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689109404457</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

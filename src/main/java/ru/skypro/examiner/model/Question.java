@@ -12,6 +12,10 @@ public class Question {
         this.answer = answer;
     }
 
+    public Question() {
+
+    }
+
     public String getText() {
         return text;
     }
@@ -47,5 +51,20 @@ public class Question {
                 "text='" + text + '\'' +
                 ", answer='" + answer + '\'' +
                 '}';
+    }
+
+    public void add(Question question) {
+    }
+
+    public Object remove(Question question) {
+        return null;
+    }
+
+    public Object size() {
+        return null;
+    }
+
+    public Question get(int randomIndex) {
+        return null;
     }
 }

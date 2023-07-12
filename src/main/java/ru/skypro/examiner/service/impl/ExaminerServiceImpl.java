@@ -10,17 +10,13 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Service
-public class ExaminerServiceImpl implements ExaminerService {
+public abstract class ExaminerServiceImpl implements ExaminerService {
     private final QuestionService questionService;
 
     public ExaminerServiceImpl(QuestionService questionService) {
         this.questionService = questionService;
     }
 
-    @Override
-    public Collection<Question> getQuestions(int amount) {
-        return null;
-    }
 
     @Override
     public Collection<Question> getQuestion(int amount) {
